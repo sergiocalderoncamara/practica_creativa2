@@ -26,7 +26,7 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ratings
+      app: productpage
       version: v1
   template:
     metadata:
